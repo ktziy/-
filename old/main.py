@@ -314,7 +314,7 @@ class main:
         updater.dispatcher.add_handler(MessageHandler(Filters.text, echo, run_async=True))
         updater.start_polling()
         updater.idle()
-main(token="某个人在他的社区版本中没有删掉token，我帮他去掉啦",
+main(token="某个人在他的社区版本中没有删掉token，不过开源那么久应该没用了，我还是去掉了",
     botname='cnpornbot',
     mainkeyboard=
     InlineKeyboardMarkup([
